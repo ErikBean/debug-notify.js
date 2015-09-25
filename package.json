@@ -1,0 +1,27 @@
+{
+  "name": "debug-notify.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikBean/debug-notify.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikBean/debug-notify.js/issues"
+  },
+  "homepage": "https://github.com/ErikBean/debug-notify.js#readme",
+  "devDependencies": {
+    "bower": "1.5.3",
+    "jasmine-core": "2.3.4",
+    "karma": "0.13.10",
+    "karma-jasmine": "0.3.6",
+    "karma-phantomjs-launcher": "0.2.1",
+    "phantomjs": "1.9.18"
+  }
+}

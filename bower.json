@@ -1,0 +1,19 @@
+{
+  "name": "debug-notify.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ErikBean/debug-notify.js",
+  "authors": [
+    "Erik Bean <Erik.Bean@cdk.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "notify.js": "1.2.6"
+  }
+}
