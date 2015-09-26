@@ -9,7 +9,7 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'bower_components/notify.js/notify.js',
+            'test/**/*.js'
         ],
 
         // list of files to exclude
