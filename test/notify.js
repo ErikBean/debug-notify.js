@@ -102,7 +102,7 @@
     };
 
     // true if the permission is not granted
-    Notify.needsPermission = (Notification.permission === 'granted') ? false : true;
+    Notify.needsPermission = (Notify.isSupported() && Notification.permission === 'granted') ? false : true;
 
     // asks the user for permission to display notifications.  Then calls the callback functions is supplied.
     Notify.requestPermission = function(onPermissionGrantedCallback, onPermissionDeniedCallback) {
